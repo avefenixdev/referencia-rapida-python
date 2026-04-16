@@ -96,6 +96,38 @@ pip check
 pip install --upgrade -r requirements.txt
 ```
 
+# Incorporando a un proyecto el .editorconfig
+Es fundamental para mantener un estilo de código estandar entre todo el equipo de desarrollo. Puede gestionar:
+
+* Identación
+* Espacios
+* Codificación
+
+1. Crear el archivo *.editorconfig* en la raíz del proyecto
+
+2. Copiar lo siguiente en el archivo
+
+> Ejemplo base basado en las convenciones de Python (PEP 8)
+
+```ini
+# EditorConfig root
+root = true
+
+# Ajustes para archivos Python
+[*.py]
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+```
+
+3. Instalar la extensión de Visual Studio Code
+La extensión lee el archivo y configura el editor.
+
+    * EditorConfig (EditorConfig.EditorConfig)
+
 # Repositorio oficial y centralizado de Python
 Podemos encontrar bibliotecas, herramientas y módulos (paquetes) instalables.
 
