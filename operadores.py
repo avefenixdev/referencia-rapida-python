@@ -31,3 +31,17 @@ x *= 3 # x = x * 3 # multiplicación compuesta
 print(x) # 18
 x /= 2 # x = x / 2 # división compuesta
 print(x) # 9.0
+
+#? -------------------------
+#? Operadores de comparación
+#? -------------------------
+# Siempre devuelven booleanos
+
+edad = 18
+
+print(edad == 18) # Igualdad -> True
+print(edad != 21) # Igualdad -> True
+print(edad > 16) # Mayor que -> True
+print(edad < 30) # Menor que -> True
+print(edad >= 18) # Mayor o igual -> True
+print(edad <= 17) # Menor o igual -> False
