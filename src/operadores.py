@@ -53,6 +53,6 @@ print(edad <= 17) # Menor o igual -> False
 es_estudiante = True
 tiene_descuento = False
 
-print(es_estudiante and tiene_descuento) # True | True si ambos son True 
-print(es_estudiante or tiene_descuento) # True | True si uno es True 
-print(not es_estudiante) # False | Niega el valor 
+print(es_estudiante and tiene_descuento) # True | True si ambos son True
+print(es_estudiante or tiene_descuento) # True | True si uno es True
+print(not es_estudiante) # False | Niega el valor
