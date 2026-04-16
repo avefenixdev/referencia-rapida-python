@@ -132,3 +132,9 @@ La extensión lee el archivo y configura el editor.
 Podemos encontrar bibliotecas, herramientas y módulos (paquetes) instalables.
 
 <https://pypi.org/>
+
+
+# Guía de estilo para código Python
+El siguiente link describe las convenciones de codificación para el código Python.
+
+<https://peps.python.org/pep-0008/>
