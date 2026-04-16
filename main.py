@@ -59,3 +59,15 @@ altura_en_cm = altura * 100
 print("Precio con IVA:", precio_con_iva)
 print(f"Altura en cm: {altura_en_cm}")
 
+#? --------------------------------
+#? Booleanos
+#? --------------------------------
+
+es_estudiante = True
+es_fin_de_semana = False
+
+if es_estudiante:
+    print("Es estudiante")
+
+if not es_fin_de_semana:
+    print("No es fin de semana")
