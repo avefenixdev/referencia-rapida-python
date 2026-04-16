@@ -48,6 +48,12 @@ source <nombre-entorno>/bin/activate
 source ref-fast-py/bin/activate # ejemplo
 ```
 
+## Desactivar entorno
+
+```sh
+deactivate
+```
+
 ## Instalar dependencias 
 Para instalar dependencias se utilizar *pip* que es el gestor de paquetes de Python.
 
