@@ -44,5 +44,18 @@ total_mascotas = cantidad_de_mascotas * 2
 print("Edad en 12 años:", edad_en_12_anios)
 print("Mascotas totales:", total_mascotas)
 
+#? --------------------------------
+#? Números con decimales (float)
+#? --------------------------------
 
+precio = 19.99
+altura = 1.70
+promedio = 8.5
+
+# Operaciones con decimales
+precio_con_iva = precio * 1.21
+altura_en_cm = altura * 100
+
+print("Precio con IVA:", precio_con_iva)
+print(f"Altura en cm: {altura_en_cm}")
 
