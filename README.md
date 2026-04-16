@@ -17,4 +17,9 @@ Nombres claros y en **snake_case**
 * Comienza con letra
 * Sin espacios
 * Sin símbolos raros
-* Nombre descriptivo
+* Nombre descriptivo 
+
+# Repositorio oficial y centralizado de Python
+Podemos encontrar bibliotecas, herramientas y módulos (paquetes) instalables.
+
+<https://pypi.org/>
